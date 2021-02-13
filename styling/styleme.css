@@ -1,0 +1,64 @@
+.inner{
+    overflow: visible;
+    }  
+.inner img{
+  	transition: all 1.5s ease;
+  	}
+ .inner:hover img{
+  	transform: scale(1.5);
+  	}
+  
+ .login-box{
+ 	width: 450px;
+ 	height: 550px;
+ 	background: rgba(0, 0, 0, 0.5);
+ 	color: #fff;
+ 	top: 58%;
+ 	left: 25%;
+ 	position: absolute;
+ 	transform: translate(-50%, -50%);
+ 	box-sizing: border-box;
+ 	padding: 30px 30px;
+ }
+ .avatar{
+ 	width: 85px;
+ 	height: 85px;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: -50px;
+ 	left: calc(50% - 50px);
+ }
+ h2{
+ 	margin: 0;
+ 	padding: 0 0 20px;
+ 	font-size: 22px;
+ 	text-align: center;
+ }
+ .login-box input[type="text"], input[type="password"], input[type="email"]
+ {
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: transparent;
+ 	outline: none;
+ 	height: 30px;
+ 	color: #fff;
+ 	font-size: 16px;
+ }
+ h3{
+	margin-left: 2%;
+	color: pink;
+	animation: mymove 20s infinite;
+}
+@keyframes mymove{
+	from{margin-left: 2%;color: pink;}
+	to{margin-left: 85%;color: yellow;}
+}
+h5{
+	
+	margin-left: 2%;;
+	animation: myslide 15s infinite;
+}
+@keyframes myslide{
+	from{margin-left: 2%;}
+	to{margin-left: 62%;}
+}
